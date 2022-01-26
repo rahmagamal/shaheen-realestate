@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.f_nav {
+  background-color: #2196f3;
+  width: 100%;
+  height: 76px;
+}
+.f_nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin-top: 2px;
+}
+.social-icons {
+  margin-left: 25%;
+  margin-top: 2%;
+}
+
+.profile {
+  border-radius: 8px;
+  width: 31px;
+  height: 28px;
+  margin-top: 23%;
+}
+.logo {
+  float: left;
+  margin-top: 4%;
+}
+
+.l_nav {
+  background-color: white;
+  height: 80px;
+  width: 100%;
+}
+
+.building {
+  height: 608px;
+}
+
+.realstate {
+  width: 100%;
+  height: 352px;
+  background-color: #eeebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 400;
+}
+.left-arrow {
+  margin-right: 3%;
+}
+.rectangle {
+  background-color: white;
+  width: 172px;
+  height: 156px;
+  color: #000306;
+  border-radius: 12px;
+  padding: 2%;
+  margin-right: 3%;
+  text-align: center;
+}
+.rectangle:nth-of-type(1) {
+  color: #2196f3;
+}
+.nav-link {
+  padding: 2.5rem 1rem !important;
+  color: #707070;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 22px;
+}
+.nav-fill .nav-item {
+  flex: unset !important;
+}
+.enter_btn {
+  background-color: #2196f3 !important;
+  color: white !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+.nav > li > a:focus,
+.nav > li > a:hover {
+  background-color: unset !important;
+}
+
+.l_nav a:hover {
+  color: #2196f3 !important;
+}
+.silder_pic {
+  position: relative;
+}
+.flex-container {
+  position: absolute;
+  width: 976px;
+  height: 70px;
+  background-color: #020304;
+  opacity: 0.5;
+  top: 80%;
+  padding: 1%;
+  right: 26%;
+  border-radius: 28px;
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+}
+.flex_item {
+  margin-left: 4px;
+  border-radius: 28px !important;
+}
+.flex-item:nth-of-type(1) {
+  flex-grow: 4;
+}
+.flex-item:nth-of-type(2) {
+  flex-grow: 1;
+}
+.flex-item:nth-of-type(3) {
+  flex-grow: 1;
+}
+.flex-item:nth-of-type(4) {
+  flex-grow: 1;
+}
+
+.search_icon {
+  position: absolute;
+  right: 30%;
+  top: 45%;
+}
+
+.advertising-text {
+  text-align: center;
+  color: #2196f3;
+  margin-bottom: 50px;
+}
+.house {
+  width: 344px;
+  height: 267 px;
+  position: relative;
+}
+
+.house-card {
+  position: absolute;
+  width: 344px;
+  height: 30%;
+  bottom: 0;
+  background-color: #524e4e;
+  opacity: 0.5;
+}
+.house-card h1 {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-around;
+}
+.card-info p {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+.card-info p:nth-child(1) {
+  color: #2196f3;
+}
+
+.card-love {
+  position: absolute;
+  left: 7%;
+  top: 5%;
+  font-size: 27px;
+}
+
+.margin-t-9 {
+  margin-top: 9rem;
+}
+
+.requests {
+  width: 100%;
+  height: 800px;
+  background-color: #2196f3;
+  margin-top: 7%;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+.requests h1 {
+  color: white !important;
+}
+.requests img {
+  width: 385px;
+  height: 480px;
+  position: relative;
+}
+.request-card {
+  position: absolute;
+  width: 385px;
+  height: 25%;
+  bottom: 0;
+  background-color: white;
+  border-radius: 7px;
+}
+.request-card h1 {
+  color: #2196f3 !important ;
+  text-align: center;
+  font-size: 20;
+}
+.request-card-info {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+}
+.whous-title {
+  color: #2196f3 !important ;
+  font-size: 22px;
+  font-weight: bold;
+}
+.who-us p {
+  font-size: 20px;
+  color: #707070;
+}
+
+.who-us button {
+  width: 194px;
+  height: 53px;
+  border-radius: 15px;
+
+  background-color: #2196f3 !important ;
+  border-color: #2196f3 !important ;
+  font-size: 16px;
+  font-weight: bold;
+}
+footer {
+  background-color: #2196f3;
+  width: 100%;
+  height: 400px;
+  padding: 5%;
+  color: white;
+}
+footer p {
+  font-size: 16px;
+  font-weight: bold;
+}
+footer h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
