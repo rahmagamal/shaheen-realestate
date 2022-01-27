@@ -12,9 +12,38 @@
 .f_nav a {
   text-decoration: none;
   color: white;
-  padding: 10px;
-  margin-top: 2px;
 }
+
+.user-menu a {
+  color: black;
+}
+.user-menu p {
+  color: #707070;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0 0 0px !important;
+}
+.dropdown-menu {
+  min-width: 216px !important ;
+  text-align: right !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+.favourite {
+  width: 20px;
+  height: 20px;
+  margin-left: 4%;
+}
+.dropdown i {
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  margin-left: 3%;
+}
+.logout {
+  color: red;
+}
+
 .social-icons {
   margin-left: 25%;
   margin-top: 2%;
@@ -24,7 +53,6 @@
   border-radius: 8px;
   width: 31px;
   height: 28px;
-  margin-top: 23%;
 }
 .logo {
   float: left;
@@ -102,7 +130,7 @@
   opacity: 0.5;
   top: 80%;
   padding: 1%;
-  right: 26%;
+  right: 24%;
   border-radius: 28px;
   display: flex;
   justify-content: space-around;
@@ -111,18 +139,9 @@
 .flex_item {
   margin-left: 4px;
   border-radius: 28px !important;
+  width: 202px;
 }
-.flex-item:nth-of-type(1) {
-  flex-grow: 4;
-}
-.flex-item:nth-of-type(2) {
-  flex-grow: 1;
-}
-.flex-item:nth-of-type(3) {
-  flex-grow: 1;
-}
-.flex-item:nth-of-type(4) {
-  flex-grow: 1;
+.flex-container {
 }
 
 .search_icon {
@@ -186,7 +205,20 @@
   height: 800px;
   background-color: #2196f3;
   margin-top: 7%;
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  /* clip-path: polygon(
+    50% 0%,
+    83% 12%,
+    100% 43%,
+    94% 78%,
+    68% 100%,
+    32% 100%,
+    6% 78%,
+    0% 43%,
+    17% 12%
+  ); */
+
+  /* clip-path: circle(180vh at 50% -80vh); */
+  /* clip-path: path('M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 200 200 z') */
 }
 .requests h1 {
   color: white !important;
@@ -248,7 +280,7 @@ footer p {
 footer h1 {
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 3px;
+  /* margin-bottom: 6%; */
 }
 
 footer a {
@@ -256,4 +288,21 @@ footer a {
   color: white;
   font-size: 16px;
   font-weight: bold;
+}
+footer li {
+  list-style: none;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.show > .btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #2196f3 !important;
+  border-color: #2196f3 !important;
+}
+
+.dropdown-toggle::after {
+  border-right: unset !important;
+
+  border-left: unset !important;
 }
