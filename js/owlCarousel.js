@@ -11,9 +11,9 @@ $(document).ready(function() {
     itemsDesktop : [1199,3],
     itemsDesktopSmall : [979,3],
     center: true,
-    nav:true,
-    dots: true, 
-    
+    // nav:true,
+    // dots: true, 
+
     responsive: {
     600: {
     items: 1
@@ -23,9 +23,7 @@ $(document).ready(function() {
     
     
     });
-    
-    });
+});
 
-
-  
     
+
