@@ -42,97 +42,130 @@
 </head>
 <body>
     <!------------------ header----------------------->
-    <header>
+    <header id="header-nav">
        
            <nav class=" navbar-expand-lg navbar-light">
-               <div class="f_nav">
-                   <div class="col-md-6 m-auto">
-                    <ul class="nav social-icons">
-                                <!--- user icon---->
-                        <li class="nav-item">
-                             
-                            <div class="dropdown show">
-                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  <img  class="profile" src="../assets/profile_icon (2).png" alt="profile"/>
-                                </a>
-                              
-                                <div class="dropdown-menu user-menu" dir="rtl" aria-labelledby="dropdownMenuLink">
-                                  <a class="dropdown-item" href="#">
-                                     <img src="../assets/favourite.png" class="favourite" />
-                                    <span> المفضلة </span>
-                                     </a>
-                                  <p>-------------------------------</p>
-                                  <a class="dropdown-item" href="#">
-                                    <i class="far fa-user"></i>
-                                         <span>  الملف الشخصي</span>   
-
-                                  </a>
-                                  <p>-------------------------------</p>
-
-                                  <a class="dropdown-item" href="#">
-                                    <i class="fas fa-cog"></i>
-                                    <span> طلباتي</span> 
-                                    </a>
-                                  <p>-------------------------------</p>
-
-                                  <a class="dropdown-item" href="#">
-                                    <i class="fas fa-dollar-sign"></i>
-                                   <span> دفع العملة</span>   
-                                    </a>
-                                  <p>-------------------------------</p>
-
-                                  <a class="dropdown-item" href="#">
-                                    <i class="fas fa-plus"></i>
-                                      <span>   اضافة طلب </span> 
-                                   </a>
-                                  <p>-------------------------------</p>
-
-                                  <a class="dropdown-item" href="#">
-                                      <img src="../assets/log-out.png "  class=" favourite"/>
-                                    <span class="logout">    تسجيل خروج </span> 
-                                </a>
-                                 
-
-
-
-                                </div>
-                              </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#"> <i class="fab fa-linkedin-in "></i></a>   
-                        </li>                   
-                        <li class="nav-item">
-                           <a href="#"> <i class="fab fa-twitter "></i></a>    
-                        </li>
-
-                        <li class="nav-item">
-                          <a href="#">  <i class="fab fa-facebook-f "></i></a>
-                        </li>
-                      </ul>
-                   </div>
-             
-               </div>
+               <div class="container-fluid f_nav">
+                <!---first nav-->
+                    <div class="col-md-offset-1 col-md-6 mt-3">
+                            <ul class="nav">
+                                        <!--- user icon---->
+                                <li class="nav-item">
+                                    
+                                    <div class="dropdown show">
+                                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img  class="profile" src="../assets/profile_icon (2).png" alt="profile"/>
+                                        </a>
+                                    
+                                        <div class="dropdown-menu user-menu" dir="rtl" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">
+                                            <img src="../assets/favourite.png" class="favourite" />
+                                            <span> المفضلة </span>
+                                            </a>
+                                        <p>------------------------</p>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="far fa-user"></i>
+                                                <span>  الملف الشخصي</span>   
+        
+                                        </a>
+                                        <p>------------------------</p>
+        
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-cog"></i>
+                                            <span> طلباتي</span> 
+                                            </a>
+                                        <p>------------------------</p>
+        
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-dollar-sign"></i>
+                                            <span> دفع العملة</span>   
+                                            </a>
+                                        <p>------------------------</p>
+        
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-plus"></i>
+                                            <span>   اضافة طلب </span> 
+                                            </a>
+                                        <p>------------------------</p>
+        
+                                        <a class="dropdown-item" href="#">
+                                            <img src="../assets/log-out.png "  class=" favourite"/>
+                                            <span class="logout">    تسجيل خروج </span> 
+                                        </a>
+                                        
+        
+        
+        
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#"> <i class="fab fa-linkedin-in "></i></a>   
+                                </li>                   
+                                <li class="nav-item">
+                                    <a href="#"> <i class="fab fa-twitter "></i></a>    
+                                </li>
+        
+                                <li class="nav-item">
+                                <a href="#">  <i class="fab fa-facebook-f "></i></a>
+                                </li>
+                            </ul>
+                    </div>
+              
+                </div>
+              
                <!---second nav ------>
-               <div class="l-nav">
-                   <div class="container-fluid">
-
+               <div class="container l_nav ">
+                 
                    
                     <div class="row" dir="rtl">
-                        <div class=" col-md-3 " >
+                        <div class=" col-md-2" >
                             <img src="../assets/logo.png"   alt="logo" class="logo"/>
                         </div>
-                        <div class="col-md-8 m-auto"  >
-                            
-                            <ul class="nav  nav-fill  "  >
+                        <div class="col-md-10 col-sm-12" dir="rtl" >
+                           
+                                <!-- <ul class="navbar-nav m-auto mb-2 ">
+                                  <li class="nav-item">
+                                    <a class="nav-link "  href="home.html">الرئيسية</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link "   href="realestate.html"> العقارات</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link "   href="#whoUs">من نحن</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link  "  href="#callUs" >اتصل بينا </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link  "  href="#" >سياسة الخصوصيه </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link  "  href="#" >أحكام و شروط </a>
+                                  </li>
+                                  <li class="nav-item table-btn">
+                                    <a class="nav-link  "  href="#" >تسجيل الدخول </a>
+                                  </li>
+                                </ul> -->
+                               
+                             
+                             <ul class="nav  nav-fill"  > 
                                
                                 <li class="nav-item">
-                                <a class="nav-link" href="#">الرئيسية</a>
+                                <a class="nav-link" href="home.html">
+                                    <p>الرئيسية </p>
+                                <svg height="12" width="20"> 
+                                    <line x1="0" y1="0" x2="200" y2="0" style="stroke:rgb(255,169,57);stroke-width:10" />
+                                  </svg>
+                                </a>
                                 </li>
                                 <li class="nav-item ">
                                         
-                                        <a class=" dropdown-toggle nav-link" type="text" data-toggle="dropdown">
-                                            <!-- <span class="caret"></span> -->
-                                            العقارات
+                                        <a class=" dropdown-toggle nav-link show-him" type="text" data-toggle="dropdown" href="realestate.html">
+                                           <p>   العقارات </p>
+                                           <svg height="12" width="20" class="show-me"> 
+                                            <line x1="0" y1="0" x2="200" y2="0" style="stroke:rgb(255,169,57);stroke-width:10" />
+                                          </svg>
                                         </a>
                                         <ul class="dropdown-menu">
                                           <li><a href="#">العقارات</a></li>
@@ -142,16 +175,41 @@
                                       
                                   </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#whoUs" >من نحن</a>
+                                    <a class="nav-link show-him" href="#whoUs" >
+                                        <p>
+                                            من نحن
+                                        </p>
+                                     
+                                        <svg height="12" width="20" class="show-me"> 
+                                            <line x1="0" y1="0" x2="200" y2="0" style="stroke:rgb(255,169,57);stroke-width:10" />
+                                          </svg>
+                                    </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#callUs"> اتصل بينا</a>
+                                    <a class="nav-link show-him" href="#callUs">
+
+                                        <p>  اتصل بينا</p>
+                                        <svg height="12" width="20" class="show-me"> 
+                                            <line x1="0" y1="0" x2="200" y2="0" style="stroke:rgb(255,169,57);stroke-width:10" />
+                                          </svg>
+                                    </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">سياسة الخصوصيه</a>
+                                    <a class="nav-link show-him" href="realestate.html">
+                                        
+                                                 <p> سياسة الخصوصيه  </p>
+                                        <svg height="12" width="20" class="show-me"> 
+                                            <line x1="0" y1="0" x2="200" y2="0" style="stroke:rgb(255,169,57);stroke-width:10" />
+                                          </svg>     
+                                    </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">أحكام و شروط</a>
+                                    <a class="nav-link show-him" href="#">
+                                           <p>  أحكام و شروط </p>
+                                        <svg height="12" width="20" class="show-me"> 
+                                            <line x1="0" y1="0" x2="200" y2="0" style="stroke:rgb(255,169,57);stroke-width:10" />
+                                          </svg>     
+                                    </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link " href="#">
@@ -161,10 +219,10 @@
                                     </a>
                                 </li>
            
-                            </ul>
+                            </ul> 
                         </div>
                     </div>
-                </div>
+              
             </div>
           
            </nav>
@@ -173,9 +231,57 @@
                              <!------------- slider--------------->
              
            
-                        <div class="owl-carousel owl-themes" >
+                        <div class="owl-carousel owl-themes slider" >
                             <div class="item silder_pic"><img src="../assets/building.png"/>
-                            <div class="flex-container" dir="rtl"> 
+                                <div class="container">                           
+                                    
+                                        <div class="row search-div " dir="rtl">
+                                        <!-- <div class="col-md-5 m-auto">
+                                            <input class="form-control  flex_item " type="search" placeholder="بحث" aria-label="بحث">
+                                            <i class="fas fa-search  "></i>
+                                        </div>  -->
+                                        <div class="col-md-5 m-auto">
+                                            <input type="text" class="form-control flex_item "  placeholder="بحث" >
+                                            <i class="fas fa-search search_icon "></i>
+                                        </div>
+                                        <div class="col-md-3 m-auto">
+                                            <select class="form-control flex_item " placeholder=" اختر">
+                                                <option>اختر</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-3 m-auto">
+                                            <input type="text" class="form-control flex_item " id="validationDefault05" placeholder="اختر الموقع" required>
+                                            <i class="fas fa-map-marker-alt map-icon"></i>
+                                        </div>
+                                    
+                                            <div class="col-md-1 m-auto">
+                                            <button class="btn btn-primary flex_item" type="submit">بحث</button>
+                                                
+                                            </div>
+                                            
+                                            </div>
+
+
+                              </div>
+                            </div>
+                           
+                            <div class="item"><img src="../assets/building.png"/>
+                                <!-- <div class="search-div" dir="rtl"> 
+                                         
+                                    <input class="form-control mr-sm-2 flex_item search-inpt" type="search" placeholder="بحث" aria-label="بحث">
+                                      <i class="fas fa-search  search_icon"></i>
+                                      <select class="form-control flex_item" placeholder=" اختر">
+                                        <option>اختر</option>
+                                      </select>
+                                      <input type="text" class="form-control flex_item" id="validationDefault05" placeholder="اختر الموقع" required>
+                                      <i class="fas fa-map-marker-alt map-icon"></i>
+                                      <button class="btn btn-primary flex_item search-btn" type="submit">بحث</button>
+                                  
+
+                              </div> -->
+                            </div>
+                            <div class="item"><img src="../assets/building.png"/>
+                                <!-- <div class="flex-container" dir="rtl"> 
                               
                                 <input class="form-control mr-sm-2 flex_item search-inpt" type="search" placeholder="بحث" aria-label="بحث">
                                 <i class="fas fa-search  search_icon"></i>
@@ -187,11 +293,8 @@
                                       <button class="btn btn-primary flex_item search-btn" type="submit">بحث</button>
                                   
 
-                              </div>
+                              </div> -->
                             </div>
-                           
-                            <div class="item"><img src="../assets/building.png"/></div>
-                            <div class="item"><img src="../assets/building.png"/></div>
                            
                         </div>
     
@@ -245,8 +348,16 @@
 
             <i class="fas fa-chevron-left  left-arrow"></i>
 
-     </div>
 
+
+            
+     </div>
+     <!-- <div class="owl-carousel owl-theme">
+        <div class="item"><h4>1jkljlkj;</h4></div>
+        <div class="item"><h4>2</h4></div>
+        <div class="item"><h4>3</h4></div>
+
+    </div> -->
          <!-----------------الاعلانات  -------------------->
          <div class="container margin-t-9">
                 <div class="col-md-12 ">
@@ -257,7 +368,7 @@
                     </h1>
                 </div>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 ">
                         <img class="house" src="../assets/house.png" alt="advertisment" />
                         <i class="far fa-heart card-love"></i>
                         <div class="house-card">
@@ -377,7 +488,11 @@
          </div>
 
           <!--------------------------- احدث الطلبات-------------->
-          <div class="container-fluid requests">
+            <svg id="visual" viewBox="0 0 100% 250" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><rect x="0" y="0" width="2049" height="300" fill="#fff"></rect><path d="M0 232L113.8 232.5C227.7 233 455.3 234 683 211C910.7 188 1138.3 141 1366 130.3C1593.7 119.7 1821.3 145.3 1935.2 158.2L2049 171L2049 301L1935.2 301C1821.3 301 1593.7 301 1366 301C1138.3 301 910.7 301 683 301C455.3 301 227.7 301 113.8 301L0 301Z" fill="#2196f3" stroke-linecap="round" stroke-linejoin="miter"></path></svg>
+            <div class="container-fluid requests">
+              <div class="col-md-12">
+
+              </div>
             <h1 class="advertising-text">
                 <i class="fas fa-minus"></i>
                 <span> ---أحدث الطلبات----</span>
@@ -457,11 +572,9 @@
          
           </div>
 
-
-
-          
-
-           <!-------------------------  من نحن ------------------------->
+          <svg id="visual" viewBox="0 0 100% 250" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><rect x="0" y="0" width="2049" height="300" fill="#fff"></rect><path d="M0 131L113.8 147.8C227.7 164.7 455.3 198.3 683 209.2C910.7 220 1138.3 208 1366 194.5C1593.7 181 1821.3 166 1935.2 158.5L2049 151L2049 0L1935.2 0C1821.3 0 1593.7 0 1366 0C1138.3 0 910.7 0 683 0C455.3 0 227.7 0 113.8 0L0 0Z" fill="#2196f3" stroke-linecap="round" stroke-linejoin="miter"></path></svg>
+         
+          <!-------------------------  من نحن ------------------------->
               
            <div class="container margin-t-9 who-us mb-5" id="whoUs">
               <div class="row">
@@ -487,12 +600,12 @@
          <!------------------------- footer ------------------------------------>
 
              
-             <footer >
+             <footer class="footer-distributed">
                 
               <div class="container-fluid" id="callUs">
                  <div class="row" dir="rtl">
-                     <div class="col-md-5">
-                        
+                     <div class="col-md-5 ">
+                        <div class="footer-right">
                             <h1>تفاصيل العنوان</h1>
                                
                                 <p> شارع الأمير مقرن بن عبدالعزيز تقاطع مع شارع عثمان بن</p>
@@ -502,10 +615,10 @@
                                 <p> المملكة العربية السعودية </p>
                                 <p>  رقم التوظيف للرياض : 966558403758+</p>  
                          
-
+                            </div>
                      </div>
-                     <div class="col-md-3">
-                      
+                     <div class="col-md-3 ">
+                        <div class="footer-center">
                             <h1>اضافة طلب</h1>
                             <ul>
                                 <li><a href="#"> الرئيسية</a> </li>
@@ -515,14 +628,15 @@
                                 <li> <a href="#">من نحن</a>  </li>
 
                             </ul>
-                      
+                        </div>
                      </div>
-                     <div class="col-md-4">
+                     <div class="col-md-4 ">
+                        <div class="footer-left">
                          <h1> موقع الشركة</h1>
                          <img src="../assets/map.png" />
 
                      </div>
-                 
+                     </div>
                     </div>
                     <div class="col-md-12">
                         <span class="footer-logo">
