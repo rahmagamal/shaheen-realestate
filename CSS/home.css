@@ -65,9 +65,9 @@
 .nav > li > a:active {
   text-decoration: underline !important;
 } */
-/* .slider {
+.slider {
   background-color: #eeebeb;
-} */
+}
 .building {
   height: 608px;
 }
@@ -140,11 +140,11 @@
   background-color: #020304;
   opacity: 0.5;
   width: 976px;
-  /* padding: 1%; */
+  padding: 1%;
   border-radius: 28px;
   display: flex;
   justify-content: flex-start;
-  margin: auto;
+  margin: auto !important;
   top: 90%;
   left: 50%;
   bottom: 0;
@@ -158,20 +158,18 @@
   padding: 1%;
 }
 
-.search-inpt1 {
-  width: 40% !important;
-}
-.search-btn {
-  width: 10% !important;
-}
 .search_icon {
   position: absolute;
-  right: 37%;
+  right: 29%;
   top: 45%;
+}
+.search-btn {
+  height: 39px;
+  width: 139px;
 }
 .map-icon {
   position: absolute;
-  right: 85%;
+  right: 90%;
   top: 42%;
 }
 ::-ms-input-placeholder {
@@ -328,6 +326,25 @@ a:hover {
 }
 .b-text {
   color: #2196f3 !important;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #020304 !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #020304 !important;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #020304 !important;
+}
+.form-control {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
 }
 /*media-query */
 
